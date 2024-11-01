@@ -14,7 +14,7 @@ const checkProgress = () => {
     .getElementById("deliveryAddress")
     .value.toLowerCase();
 
-  if (recipientName !== "glorie garcia" || deliveryAddress !== "kl3258jj") {
+  if (recipientName !== "gloria garcia" || deliveryAddress !== "kl3258jj") {
     alert("Recipient not found");
     return;
   }
